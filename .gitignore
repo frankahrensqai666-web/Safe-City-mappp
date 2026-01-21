@@ -1,0 +1,24 @@
+
+# Зависимости (самая тяжелая папка, ее НЕЛЬЗЯ загружать)
+node_modules/
+
+# Результат сборки (GitHub сам создаст эту папку в облаке)
+dist/
+dist-ssr/
+*.local
+
+# Логи и временные файлы
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.stylelintcache
+
+# Файлы настроек редактора
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
